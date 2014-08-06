@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gocraft/web"
+	"github.com/PlanitarInc/web"
 )
 
 //

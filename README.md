@@ -7,7 +7,7 @@ gocraft/web is a Go mux and middleware package. We deal with casting and reflect
 From your GOPATH:
 
 ```bash
-go get github.com/gocraft/web
+go get github.com/PlanitarInc/web
 ```
 
 Add a file ```server.go``` - for instance, ```src/myapp/server.go```
@@ -16,7 +16,7 @@ Add a file ```server.go``` - for instance, ```src/myapp/server.go```
 package main
 
 import (
-	"github.com/gocraft/web"
+	"github.com/PlanitarInc/web"
 	"fmt"
 	"net/http"
 	"strings"

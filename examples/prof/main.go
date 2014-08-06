@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/gocraft/web"
+	"github.com/PlanitarInc/web"
 )
 
 //
