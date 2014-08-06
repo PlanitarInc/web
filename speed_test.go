@@ -3,11 +3,12 @@ package web_test
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/gocraft/web"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/gocraft/web"
 )
 
 //

@@ -3,12 +3,13 @@ package web_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/gocraft/web"
 	"net/http"
 	"net/http/httptest"
 	"sort"
 	"strings"
 	"testing"
+
+	"github.com/gocraft/web"
 )
 
 //

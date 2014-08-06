@@ -2,10 +2,11 @@ package web_test
 
 import (
 	"fmt"
-	"github.com/gocraft/web"
-	. "launchpad.net/gocheck"
 	// "net/http"
 	// "strings"
+
+	"github.com/gocraft/web"
+	. "launchpad.net/gocheck"
 )
 
 type MiddlewareTestSuite struct{}

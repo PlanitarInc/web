@@ -2,12 +2,13 @@ package web_test
 
 import (
 	"fmt"
-	"github.com/gocraft/web"
-	. "launchpad.net/gocheck"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/gocraft/web"
+	. "launchpad.net/gocheck"
 )
 
 //
