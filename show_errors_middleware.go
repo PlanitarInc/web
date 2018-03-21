@@ -9,10 +9,8 @@ import (
 	"strings"
 )
 
-//
-// This is development-only middleware. It was more or less copied from github.com/pilu/traffic
-//
-
+// ShowErrorsMiddleware will catch panics and render an HTML page with the stack trace.
+// This middleware should only be used in development.
 func ShowErrorsMiddleware(rw ResponseWriter, req *Request, next NextMiddlewareFunc) {
 	defer func() {
 		if err := recover(); err != nil {
@@ -178,7 +176,7 @@ const panicPageTpl string = `
       <pre class="stack">{{ .Stack }}</pre>
       <h2>Request</h2>
       <p><strong>Method:</strong> {{ .Method }}</p>
-      <h3>Paramenters:</h3>
+      <h3>Parameters:</h3>
       <ul>
         {{ range $key, $value := .Params }}
           <li><strong>{{ $key }}:</strong> {{ $value }}</li>
